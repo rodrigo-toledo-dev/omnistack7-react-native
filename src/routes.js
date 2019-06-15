@@ -12,6 +12,7 @@ export default createAppContainer(
     Feeds,
     New
   },{
+    initialRouteName: 'New',
     defaultNavigationOptions: {
       headerTitle: <Image style={{ marginHorizontal: 20 }} source={logo} />,
       headerBackTitle: null,
